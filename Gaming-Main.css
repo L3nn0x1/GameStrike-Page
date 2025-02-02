@@ -1,0 +1,95 @@
+/* To color the Background */
+body {
+    background-color: #1a1a2e; /* Dark blue color */
+    color: #eaeaea; /* Light grey color for better contrast */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #16213e; /* Slightly lighter dark blue */
+    overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: #eaeaea; /* Light grey color */
+    text-decoration: none;
+    font-size: 17px;
+    width: 23%; /* Four equal-width links */
+    text-align: center; /* Center the text */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: #0f3460; /* Darker blue for hover effect */
+}
+
+/* Style the current/active link */
+.navbar a.active {
+    background-color: #e94560; /* Bright red for active link */
+}
+
+/* Style the featured section */
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* Center the items */
+}
+
+/* Style each feature item */
+.feature-item {
+    background-color: #16213e; /* Slightly lighter dark blue */
+    border: 1px solid #0f3460; /* Darker blue border */
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s; /* Add a transition for hover effect */
+}
+
+.feature-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Style the feature item headings */
+.feature-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #e94560; /* Bright red for headings */
+}
+
+/* Style the feature item images */
+.feature-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Style the feature item paragraphs */
+.feature-item p {
+    margin: 10px 0;
+}
+
+/* Style the feature item links */
+.feature-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e94560; /* Bright red for links */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s; /* Add a transition for hover effect */
+}
+
+/* Add a hover effect to the feature item links */
+.feature-item a:hover {
+    background-color: #d63447; /* Slightly darker red for hover effect */
+}
