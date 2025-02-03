@@ -93,3 +93,33 @@ body {
 .feature-item a:hover {
     background-color: #d63447; /* Slightly darker red for hover effect */
 }
+
+/* Responsive media query for medium screens */
+@media (max-width: 1050px) {
+    .navbar a {
+        font-size: 16px;
+        width: 100%; /* Stack links vertically */
+    }
+
+    .games-item {
+        width: 45%; /* Adjust width for medium screens */
+    }
+}
+
+/* Responsive media query for small screens */
+@media (max-width: 890px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        width: 100%; /* Stack links vertically */
+        text-align: left; /* Align text to the left */
+        padding: 10px 20px; /* Adjust padding */
+    }
+
+    .games-item {
+        width: 100%; /* Full width for small screens */
+    }
+}
