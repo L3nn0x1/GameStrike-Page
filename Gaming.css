@@ -93,6 +93,7 @@ body {
 .games-item a:hover {
     background-color: #d63447; /* Slightly darker red for hover effect */
 }
+
 /* Responsive media query for medium screens */
 @media (max-width: 1050px) {
     .navbar a {
